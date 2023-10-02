@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spend-revenue"
+version = "0.1.0"
+description = ""
+authors = ["Alexey-Goryachev <alexey.i.goryachev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spend_revenue"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
