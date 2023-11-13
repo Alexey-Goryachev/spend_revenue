@@ -1,11 +1,11 @@
 # spend_revenue
 This is a two endpoint implementation using the Django REST Framework
 
-endpoint http://127.0.0.1:8000/spend-statistics/  - для просмотру queryset моделі SpendStatistic з поділом по дням (date) та назвою (name), з агрегованими сумами значень spend, impressions, clicks, conversion та пов'язаними значеннями revenue з моделі RevenueStatistic.
+endpoint http://127.0.0.1:8000/spend-statistics/  - to view the queryset of the SpendStatistic model divided by date and name, with aggregated sums of spend, impressions, clicks, conversion and related revenue values from the RevenueStatistic model.
 
-endpoint http://127.0.0.1:8000/revenue-statistics/ - для просмотру queryset моделі RevenueStatistic з поділом по дням (date) та назвою (name), з агрегованими сумами значень revenue та пов'язаними значеннями spend, impressions, clicks, conversion з моделі SpendStatistic.
+endpoint http://127.0.0.1:8000/revenue-statistics/ - to view the queryset of the RevenueStatistic model with division by day (date) and name (name), with aggregated sums of revenue values and related spend, impressions, clicks, conversion values from the SpendStatistic model.
 
-Вход в админку:
+Login to admin:
 
 login - admin
 
